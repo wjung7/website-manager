@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Restricted Access</title>
+        <link rel="stylesheet" type="text/css" href="admin.css"/>
+        <script type="text/javascript" src="//courses.cs.washington.edu/courses/cse154/17sp/lib/ajax-promise.js"></script>
+        <script type="text/javascript" src="admin.js"></script>
+    </head>
+    
+    <body>
+        <div class="login-page">
+          <div class="form">
+            <form class="login-form">
+              <input id = "username" type="text" placeholder="username"/>
+              <input id = "password" type="password" placeholder="password"/>
+              <div id ="signinbutton" class = "button">login</div>
+            </form>
+            <div id="errormessage"></div>
+          </div>
+        </div>
+        
+        <div id = "menu-manager" class = "">
+          <table id = "menu-ui">
+            <div id = "tablehead">
+              <tr>
+                <th id = "id">#</th>
+                <th id = "foodname">Menu</th>
+                <th id = "description">Description</th> 
+                <th id = "price">Price</th>
+              </tr>
+            </div>
+          </table>
+        </div>
+    </body>
+</html>
